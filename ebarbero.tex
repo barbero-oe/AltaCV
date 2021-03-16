@@ -20,7 +20,8 @@
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
-\documentclass[10pt,a4paper,ragged2d,withhyper]{altacv}
+\documentclass[10pt,letterpaper,ragged2d,withhyper]{altacv}
+%\documentclass[10pt,a4paper,ragged2d,withhyper]{altacv}
 %% AltaCV uses the fontawesome5 and academicons fonts
 %% and packages.
 %% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
@@ -116,17 +117,23 @@
 \begin{paracol}{2}
 \cvsection{Experience}
 
-\cvevent{Software Engineer III}{VeriTran}{October 2016 -- Ongoing}{Argentina}
+\cvevent{Senior Full Stack Developer}{VeriTran}{October 2016 -- Ongoing}{Argentina}
 \begin{itemize}
-\item Multi-platform serialization mechanism using Protocol Buffers
+\item Cross-platform serialization mechanism using Protocol Buffers
 \item CI/CD with GitLab and Docker
 \item Code generator of Kotlin/Native in Python
-\item Extend and integrate Microsoft MakeCode editor
+\item Interview users to understand their experience with current tools
+\item Integrate user-facing block programming language
 \item NodeJS+Express back-end to transpile visual code to JS
-\item Annotation Processor to edit fields pre-serialization process
-\item Protocol to communicate between web-views and apps
-\item Interview candidates and perform code challenges
+\item Code generator in Kotlin to modify fields before serialization
 \item Lead internal training on TDD, Clean Code, Design Patterns
+\item Identify performance bottlenecks on Java Applications
+\item Identify and solve memory leaks on Java Applications
+\item Creates "widget" concept to integrate native apps and web-apps
+\item Facilitate hands-on sessions on the development of widgets
+\item Face to face interviews with candidates
+\item Evaluate candidate's submission and give feedback on it
+\item Pair program with candidates to evaluate day to day work
 \end{itemize}
 
 \cvtag{Kotlin}
@@ -142,11 +149,14 @@
 \cvtag{GitLab}
 \cvtag{Python}
 \cvtag{Bash}
+\cvtag{C/C++}
 \cvtag{Clojure}
 \cvtag{Oracle}
 \cvtag{Vim}
 \cvtag{Docker}
 \cvtag{Scrum}
+\cvtag{Java Flight Recorder}
+\cvtag{Grafana}
 
 \divider
 
@@ -155,7 +165,8 @@
 \item High level library to execute Store Procedures and queries
 \item Visual label designer for Zebra Barcode printer
 \item Visual planing and scheduling interface for production lines
-\item Migrate and improve CRM system
+\item Migrate and improve ERP system
+\item Installation and administration of Team Foundation Server
 \end{itemize}
 
 \cvtag{C\#}
@@ -167,41 +178,33 @@
 \cvtag{Visual Studio}
 \cvtag{Windows Forms}
 
-\cvsection{Books I had read}
-
-\printinfo{\faBook}{Clean Code}
-\medskip
-
-It was one of the firsts books I had read and the one that bumped me to continuously improve the way I work. Paying attention on how to write clear and simple code that is easily maintainable by myself and my colleagues.
-
-\divider
-
-%\printinfo{\faBook}{Game Programming Patterns}
-%\medskip
-%
-%It explains concisely different ways of implementing patterns, and the different trade-offs that we can make. It allowed me to weight different factors when implementing these patterns.
-%
-%\divider
-
-% \printinfo{\faBook}{Understanding the Four Rules of Simple Design}
+% \cvsection{Some books that I've read}
+% 
+% \printinfo{\faBook}{Clean Code}
 % \medskip
-%
-% It solidified my idea of striving towards simple and clear design to improve the understanding of the system.
-%
+% 
+% It was one of the firsts books I had read and the one that bumped me to continuously improve the way I work. Paying attention on how to write clear and simple code that is easily maintainable by myself and my colleagues.
+% 
 % \divider
-
-\printinfo{\faBook}{The Software Craftsman}
-\medskip
-
-It inspired me on how to approach my professional life, on how to inspire my colleagues and the importance of having a deep understanding of the problems to solve.
-
-\divider
-
-\printinfo{\faBook}{Extreme Programming Explained: Embrace Change}
-\medskip
-
-It gave me a framework and ideas on how to improve the processes of the teams on which I work. With a continuous improvement mindset we can improve our work week by week.
-
+% 
+% %\printinfo{\faBook}{Game Programming Patterns}
+% %\medskip
+% %
+% %It explains concisely different ways of implementing patterns, and the different trade-offs that we can make. It allowed me to weight different factors when implementing these patterns.
+% %
+% %\divider
+% 
+% % \printinfo{\faBook}{Understanding the Four Rules of Simple Design}
+% % \medskip
+% %
+% % It solidified my idea of striving towards simple and clear design to improve the understanding of the system.
+% %
+% % \divider
+% 
+% \printinfo{\faBook}{The Software Craftsman}
+% \medskip
+% 
+% It inspired me on how to approach my professional life, on how to inspire my colleagues and the importance of having a deep understanding of the problems to solve.
 
 
 %% Switch to the right column. This will now automatically move to the second
@@ -220,7 +223,7 @@ I am an ardent supporter of battle-tested practices such as TDD, Pair Programmin
 
 I value highly performant and motivated teams that are always looking for improvement opportunities.
 
-I enjoy reading and I am continuously seeking new topics to deepen my understanding of the development process. My interests range from technical concepts, such as design patterns, design principles and programming languages to development practices and agile methodologies.
+I enjoy reading and I am continuously seeking new topics to deepen my understanding of the development process, design patterns, design principles, agile methodologies and programming languages, among others.
 
 %My practical knowledge on these areas have granted me the capability to adapt and deliver quality solutions consistently.
 
